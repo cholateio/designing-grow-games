@@ -1,0 +1,18 @@
+{
+  "name": "grow-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GROW 式擺放順序解謎的規則層起點：條件語言、引擎、資料化結局、結構檢查、全枚舉求解器、收緊器、劇透表（零依賴）",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node tools/neutral.mjs && node --test test/*.test.js",
+    "lint:neutral": "node tools/neutral.mjs",
+    "check": "node solver/run.js spec.js --check",
+    "stats": "node solver/run.js spec.js",
+    "tighten": "node solver/tighten.js spec.js",
+    "solutions": "node tools/solutions.mjs spec.js docs/solutions.md"
+  }
+}
