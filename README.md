@@ -2,7 +2,7 @@
 
 A [Claude Code](https://docs.claude.com/en/docs/claude-code) skill for designing GROW-style placement-order puzzle games (in the spirit of Eyezmaze's GROW Island / Cube / Valley) in any theme. You give it a scenario, a handful of growable items and the endings you want; it walks you through scale and feasibility, picking structural components (hazards, troublemakers, hubs, branches, expiry, a finale), writing the rules as pure data, and exhaustively checking all N! placement orders so that exactly one order reaches the true ending. It ships a zero-dependency Node starter (condition language, engine, data-driven endings, spec validator, exhaustive solver, tightener, spoiler-table generator) and a complete worked example. Every number and mechanism in it is presented as a *choice with reasons and knobs*, not a rule. The docs are in Traditional Chinese.
 
----
+<img width="3837" height="2160" alt="image" src="https://github.com/user-attachments/assets/11f31766-9670-4a99-a558-4714a4bbb6ad" />
 
 做 GROW 式（Eyezmaze GROW Island／Cube／Valley）放置順序解謎遊戲的 Claude Code skill：`designing-grow-games`。
 
